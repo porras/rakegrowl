@@ -1,8 +1,7 @@
 require 'rubygems'
 require 'rake'
-load 'sample.rake'
-require 'growl'
 require 'rakegrowl'
+load 'sample.rake'
 
 def run_tasks(*tasks)
   Rake.application.instance_variable_set("@top_level_tasks", tasks)

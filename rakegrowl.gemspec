@@ -6,10 +6,10 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Sergio Gil P\303\251rez de la Manga"]
-  s.date = %q{2010-01-19}
+  s.date = %q{2010-01-25}
   s.email = %q{sgilperez@gmail.com}
   s.extra_rdoc_files = ["README.md"]
-  s.files = ["LICENSE", "README.md", "spec", "lib/growl.rb", "lib/rakegrowl.rb"]
+  s.files = ["LICENSE", "README.md", "spec", "lib/rakegrowl.rb"]
   s.homepage = %q{http://github.com/porras/rakegrowl}
   s.rdoc_options = ["--main", "README.md"]
   s.require_paths = ["lib"]
