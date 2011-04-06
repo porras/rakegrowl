@@ -58,9 +58,8 @@ describe "rakegrowl" do
   end
   
   it "should notify when a task fails" do
-    pending "Test written but not implemented still"
-    Rakegrowl::Growl.should_receive(:notify).with("Rake", "Task buggy failed")
-    run_tasks "buggy"
+    Rakegrowl::Growl.should_receive(:notify).with("Rake", "Task failed!")
+    lambda { run_tasks "buggy" }.should raise_error(SystemExit)
   end
   
   it "should work with namespaced tasks" do

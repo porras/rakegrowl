@@ -29,7 +29,12 @@ end
 Rake::Application.class_eval do
   def top_level_with_growl
     Rakegrowl.enhance_tasks
-    top_level_without_growl
+    begin
+      top_level_without_growl
+    rescue SystemExit
+      Rakegrowl::Growl.notify "Rake", "Task failed!"
+      raise
+    end
   end
   alias_method :top_level_without_growl, :top_level
   alias_method :top_level, :top_level_with_growl
