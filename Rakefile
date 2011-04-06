@@ -28,7 +28,7 @@ spec = Gem::Specification.new do |s|
   s.files             = %w(LICENSE README.md) + Dir.glob("{spec,lib/**/*}")
   s.require_paths     = ["lib"]
 
-  s.add_development_dependency("rspec")
+  s.add_development_dependency("rspec", "~> 1.3.0")
 
 end
 
