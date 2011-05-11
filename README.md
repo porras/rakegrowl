@@ -10,8 +10,7 @@ You need to have [Growl](http://growl.info/) and `growlnotify` installed to get 
 
 To install **rakegrowl**, which is packaged as a gem, you need to run:
 
-    sudo gem sources -a http://gemcutter.org # [if you haven't done it already]
-    sudo gem install rakegrowl
+    gem install rakegrowl
   
 ## Usage
 
@@ -27,4 +26,4 @@ From now on, whenever you run a `rake` task, you'll get a notification when it f
 
 ## Copyright & Licensing
 
-Copyright (c) 2010 Sergio Gil. MIT license, see LICENSE for details.
+Copyright (c) 2010-2011 Sergio Gil. MIT license, see LICENSE for details.
