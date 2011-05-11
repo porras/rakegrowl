@@ -1,5 +1,18 @@
 # Rakegrowl release history
 
+## Version 0.3.0 / 2011-05-11
+
+[full changelog](https://github.com/porras/rakegrowl/compare/v0.2.0...v0.3.0)
+
+### Features
+
+* Notify failing tasks
+
+### Other
+
+* Get .gemspec out of Rakefile
+* Use bundler for development
+
 ## Version 0.2.0 / 2010-01-25
 
 [full changelog](https://github.com/porras/rakegrowl/compare/v0.1.0...v0.2.0)

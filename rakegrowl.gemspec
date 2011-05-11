@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = "rakegrowl"
-  s.version = "0.2.0"
+  s.version = "0.3.0"
 
   s.authors = ["Sergio Gil Pérez de la Manga"]
   s.date = "2011-05-11"
