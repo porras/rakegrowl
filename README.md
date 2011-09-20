@@ -1,4 +1,4 @@
-# rakegrowl
+# Rakegrowl [![Build Status](https://secure.travis-ci.org/porras/rakegrowl.png)](http://travis-ci.org/porras/rakegrowl)
 
 Do you recognize this situation? You run a `rake` task (for example, `rake spec`), which you know it's going to take some time (e.g. 3 or 4 minutes). You say _"Great moment to check what's going on on Twitter"_. 10 minutes and 3 tabs with blog posts later, you realize you were actually waiting for a task to finish, a task which finished long before. Bye, bye, productivity!!
 
