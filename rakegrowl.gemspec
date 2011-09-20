@@ -13,6 +13,4 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--main", "README.md"]
   s.require_paths = ["lib"]
   s.summary = s.description = "Get Growled when your long running rake tasks finish"
-
-  s.add_development_dependency("rspec", "~> 1.3.0")
 end
