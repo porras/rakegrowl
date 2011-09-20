@@ -2,13 +2,13 @@
 
 Gem::Specification.new do |s|
   s.name = "rakegrowl"
-  s.version = "0.3.0"
+  s.version = "0.3.1"
 
   s.authors = ["Sergio Gil Pérez de la Manga"]
-  s.date = "2011-05-11"
+  s.date = "2011-09-21"
   s.email = "sgilperez@gmail.com"
   s.extra_rdoc_files = ["README.md"]
-  s.files = %w(LICENSE README.md) + Dir.glob("{spec,lib/**/*}")
+  s.files = %w(LICENSE README.md) + Dir.glob("{lib/**/*}")
   s.homepage = "http://github.com/porras/rakegrowl"
   s.rdoc_options = ["--main", "README.md"]
   s.require_paths = ["lib"]
